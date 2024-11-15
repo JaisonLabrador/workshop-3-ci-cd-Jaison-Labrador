@@ -76,7 +76,6 @@ jobs:
             "from": {"email": "'$FROM_EMAIL'"},
             "content": [{
               "type": "text/plain",
-              "value": "El flujo de trabajo en GitHub Actions falló. Por favor revisa los detalles 
-                 en la pestaña de Actions en GitHub."
+              "value": "El flujo de trabajo en GitHub Actions falló. Por favor revisa los detalles en la pestaña de Actions en GitHub."
               }]
           }'
