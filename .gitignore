@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+www.betek.la
+@betek.la
+Carrera 43 A # 34 – 155. Torre Norte, Almacentro. Oficina 
+701.
+Medellín, Colombia
+# Environment variables
+.env
+# Production build
+dist/
+build/
+# Cache directories
+.cache/
+.next/
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+# MacOS files
+.DS_Store
+# GitHub Actions
+function.zip
