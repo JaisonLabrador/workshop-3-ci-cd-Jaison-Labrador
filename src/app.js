@@ -9,7 +9,3 @@ app.get('/status', (req, res) => {
 res.status(200).json({ status: 'API funcionando correctamente' });
 });
 module.exports = app;
-
-const app = require('./src/app');
-const serverless = require('serverless-http');
-module.exports.handler = serverless(app);
