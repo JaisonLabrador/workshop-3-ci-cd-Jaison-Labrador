@@ -5,7 +5,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
 res.status(200).send('Bienvenido a la API');
 });
-app.get('/statustasa', (req, res) => {
+app.get('/statustsa', (req, res) => {
 res.status(200).json({ status: 'API funcionando correctamente' });
 });
 module.exports = app;
